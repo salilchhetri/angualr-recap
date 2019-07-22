@@ -1,0 +1,7 @@
+<div class="container">
+  <mat-grid-list cols="4" rowHeight="2:3" gutterSize="1em;">
+    <mat-grid-tile *ngFor="let post of posts">
+      <app-card [post]="post"></app-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
